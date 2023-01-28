@@ -1,0 +1,21 @@
+\documentclass[12pt]{amsart}
+\usepackage[margin=1in]{geometry}
+
+\newtheorem*{proposition}{Proposition}
+
+\title{Homework 12.2}
+\author{Zain Mirza}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{proposition}
+Consider the divisibility relation $|$ on $\mathbb{N}$(the set of positive integers) defined by $a|b$ if $b=ac$ for some $c\in \mathbb{N} $. Prove that $|$ is a partial order.  
+\end{proposition}
+
+1. For our relation to be reflexive $a\vdash a$ for all $a\in N$. For when $a=b $ this is true because $a=a_1$. Thus our relation is reflexive.  
+
+2. For this relation to be symmetric, we must have both $a\vdash b$ and $b\vdash a$. It is true that for when $a\neq b$, c cannot be 1 because $b=ac$. This means that b is always greater than a resulting in the case that we can never have $a\vdash b$ and $b\vdash a$ for these elements $a$ and $b$. Thus here we have anti-symmetric relation. 
+
+3. Since our relation is defined by $a|b$, this must be transitive. This is true because transitivity is a property of divisibility of numbers. 
+\end{document}
